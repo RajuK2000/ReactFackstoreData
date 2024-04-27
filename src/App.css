@@ -1,38 +1,81 @@
-.App {
+body{
+  background-color: dimgray;
   text-align: center;
 }
+.di{
+  display: inline-flex;
+  padding: 2vh;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+}
+.di1{
+  border: 5px solid black;
+  text-align: center;
+  height: 80vh;
+  width: 60vh;
+  border-radius: 20px;
+  box-shadow: 2vh 2vh 5vh;
+  background-color:darkgrey;
+}
+.di1:hover{
+  transition-duration: 1s;
+  transform: scale(1.05);
+}
+button{
+  border: 2px solid;
+  height: 5vh;
+  width: 19vh;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 3vh;
+  background-color:bisque;
+  box-shadow: 1vh 1vh 1vh;
+}
+button:hover{
+  transition-duration: 2s;
+  color: rgb(113, 82, 143);
+}
+.im{
+  mix-blend-mode: multiply;
+}
+.im:hover{
+  transition: 2s;
+  transform: scale(1.08);
+  mix-blend-mode: multiply;
+}
+.text{
+  margin: 4vh;
+  background-color: aqua;
+  
+}
+.text:hover{
+  transition-duration: 2s;
+  background-color: rgb(17, 4, 30);
+}
+h1{
+  text-align: center;
+  text-decoration:underline;
+  color: brown;
+  text-transform: uppercase;
+
+}
+h1:hover{
+  transition-duration: 1.5s;
+  transform: scale(1.1);
+  color: maroon;
+}
+h2{
+  text-align: center;
+  color: rgb(1, 57, 1);
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+h2:hover{
+  transition-duration: 1s;
+  transform: scale(1.3);
+}
+.title{
+  color:firebrick;
+  font-weight: bold;
+  font-size: 3vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
